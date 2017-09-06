@@ -163,7 +163,7 @@ head(input_webdata.df)
 ## Ques 1 : What is we need to display the first 10 rows instead?
 ## Ques 2 : What if we want to display the last few rows?
 
-csv_file <- read.table(file="C:/Users/rishika.sharma/Documents/MICA- Term 4/AMMA/binary.csv",
+csv_file <- read.table(file="C:\\Ram\\General 20150804 v1\\Trainings\\R Programming for Data Science\\data\\binary.csv",
                                 header = TRUE, 
                                 sep = ',')
 
@@ -270,7 +270,7 @@ write.csv(mtcars, "mtcars.csv")
 tt$carmodel <- row.names(mtcars)
 row.names(tt) <- NULL
 
-write.csv(tt, "C:/Users/rishika.sharma/Documents/MICA- Term 4/AMMA/mtcars.csv",
+write.csv(tt, "C:\\Ram\\R for Data Science\\data\\mtcars.csv",
           row.names=F
 )
 
@@ -342,4 +342,12 @@ getwd()
 # http://dni-institute.in/blogs/read-large-files-into-r/
 
 
+# Assignment 2
+
+# Q(1):  Down a  csv file from https://data.oecd.org/healthstat/infant-mortality-rates.htm and read the csv file
+# And remove the last variable 
+
+
+# Q(2): Read 2 table from html page https://en.wikipedia.org/wiki/India%E2%80%93Pakistan_cricket_rivalry
+# Find number of ODI Matches won by India
 
