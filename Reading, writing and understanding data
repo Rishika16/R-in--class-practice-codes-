@@ -342,12 +342,3 @@ getwd()
 # http://dni-institute.in/blogs/read-large-files-into-r/
 
 
-# Assignment 2
-
-# Q(1):  Down a  csv file from https://data.oecd.org/healthstat/infant-mortality-rates.htm and read the csv file
-# And remove the last variable 
-
-
-# Q(2): Read 2 table from html page https://en.wikipedia.org/wiki/India%E2%80%93Pakistan_cricket_rivalry
-# Find number of ODI Matches won by India
-
